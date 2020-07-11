@@ -1,0 +1,4 @@
+To solve the scoreboard challenge from OWASP Juice Shop, I used the https://pwning.owasp-juice.shop/ website for help
+Using inspect element, I looked through the source code, looking at the website code for the word "score"
+main-es2015.js contains a address on line 13660 called 'score-board'
+Adding 'score-board' to the end of the Juice Shop web address accesses the scoreboard
